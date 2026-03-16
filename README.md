@@ -13,10 +13,10 @@ A real-time intelligence dashboard that tracks skill demand, salary trends, and 
 
 ## Key Findings
 
-- **Excel** (11.3%), **Power BI** (11.1%), and **SQL** (9.1%) are the most in-demand skills for UK data analyst roles
-- **London** dominates hiring volume with 77 postings, followed by Manchester (14) and Belfast (13)
-- Average advertised salary range sits at **£48,585 - £59,059** across all tracked roles
+- **Excel, Power BI, and SQL** appear among the most frequently requested skills in UK data analyst job postings
+- **London** dominates hiring volume, followed by Manchester, Belfast, and Birmingham
 - Cloud skills (Azure, AWS) appear in a growing number of listings, signalling a shift toward cloud-based analytics
+- Specific percentages and salary breakdowns are available in the live dashboard
 
 ## Dashboard Pages
 
@@ -32,11 +32,29 @@ A real-time intelligence dashboard that tracks skill demand, salary trends, and 
 |---|---|
 | Data Collection | Python, Adzuna API |
 | Skill Extraction | Python, Regex |
-| Database | SQLite |
+| Database | SQL (SQLite) |
 | Analysis | pandas |
 | Visualisation | Plotly |
 | Dashboard | Streamlit |
 | Deployment | Streamlit Community Cloud |
+
+## Architecture
+
+```
+Adzuna API
+    ↓
+Python Data Collection (requests)
+    ↓
+SQLite Database
+    ↓
+Skill Extraction (Regex)
+    ↓
+pandas Analysis
+    ↓
+Streamlit + Plotly Dashboard
+    ↓
+Streamlit Community Cloud (Live Deployment)
+```
 
 ## How It Works
 
@@ -105,4 +123,4 @@ job-market-dashboard/
 
 **Munib Ahmed** — Final-year Computer Science student at Northumbria University, Newcastle.
 
-[LinkedIn](https://www.linkedin.com/in/your-linkedin) | [Portfolio](https://your-portfolio-url.com)
+[LinkedIn](https://www.linkedin.com/in/munib-ahmed-53a568294) | [Portfolio](https://munibsweb.netlify.app/)
