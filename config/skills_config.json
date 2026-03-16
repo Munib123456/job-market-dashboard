@@ -1,0 +1,58 @@
+{
+    "Programming": {
+        "Python": "\\bPython\\b",
+        "SQL": "\\bSQL\\b",
+        "R": "\\bR\\b(?!\\w)",
+        "VBA": "\\bVBA\\b",
+        "SAS": "\\bSAS\\b",
+        "Java": "\\bJava\\b(?!Script)",
+        "Scala": "\\bScala\\b"
+    },
+    "Visualisation": {
+        "Power BI": "\\bPower\\s*BI\\b",
+        "Tableau": "\\bTableau\\b",
+        "Looker": "\\bLooker\\b",
+        "Qlik": "\\bQlik\\b"
+    },
+    "Spreadsheets": {
+        "Excel": "\\bExcel\\b",
+        "Google Sheets": "\\bGoogle\\s*Sheets\\b"
+    },
+    "Databases": {
+        "MySQL": "\\bMySQL\\b",
+        "PostgreSQL": "\\bPostgreSQL\\b|\\bPostgres\\b",
+        "SQL Server": "\\bSQL\\s*Server\\b",
+        "MongoDB": "\\bMongoDB\\b",
+        "BigQuery": "\\bBigQuery\\b",
+        "Snowflake": "\\bSnowflake\\b",
+        "Redshift": "\\bRedshift\\b"
+    },
+    "Cloud": {
+        "Azure": "\\bAzure\\b",
+        "AWS": "\\bAWS\\b",
+        "GCP": "\\bGCP\\b|\\bGoogle\\s*Cloud\\b",
+        "Databricks": "\\bDatabricks\\b"
+    },
+    "Technical": {
+        "ETL": "\\bETL\\b",
+        "Data Warehousing": "\\bData\\s*Warehous",
+        "Data Modelling": "\\bData\\s*Modell",
+        "Machine Learning": "\\bMachine\\s*Learning\\b|\\bML\\b",
+        "Statistics": "\\bStatistic",
+        "A/B Testing": "\\bA\\s*/\\s*B\\s*Test"
+    },
+    "Libraries": {
+        "pandas": "\\bpandas\\b",
+        "numpy": "\\bnumpy\\b",
+        "scikit-learn": "\\bscikit.learn\\b|\\bsklearn\\b",
+        "PySpark": "\\bPySpark\\b",
+        "dbt": "\\bdbt\\b",
+        "Airflow": "\\bAirflow\\b"
+    },
+    "Soft Skills": {
+        "Stakeholder Management": "\\bStakeholder\\s*Management\\b|\\bStakeholder\\b",
+        "Communication": "\\bCommunication\\b",
+        "Agile": "\\bAgile\\b",
+        "Scrum": "\\bScrum\\b"
+    }
+}
