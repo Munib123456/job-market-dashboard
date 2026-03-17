@@ -2,7 +2,7 @@
 
 A real-time intelligence dashboard that tracks skill demand, salary trends, and geographic hiring patterns across UK data analyst and business analyst job postings.
 
-**[View Live Dashboard](https://job-market-dashboard-duikwthe3lryalzbkxvkjv.streamlit.app)**
+**[View Live Dashboard](https://munib-uk-data-jobs-tracker.streamlit.app)**
 
 ## What It Does
 
